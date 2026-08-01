@@ -36,8 +36,6 @@ The dataset (`loan_data.csv`) contains historical loan applications with feature
 | `Property_Area` | Urban / Semiurban / Rural |
 | `Loan_Status` | Target variable — loan approved (`1`) or not (`0`) |
 
-*(Update this table if your actual columns differ.)*
-
 ## ⚙️ Approach
 
 1. **Exploratory Data Analysis (EDA)** — examined distributions of categorical features such as education and marital status, and their relationship with loan approval.
@@ -83,8 +81,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 ## 📈 Results
 
-The trained SVM model achieves an accuracy of **XX%** on the test set.
-*(Replace with your notebook's actual reported accuracy/precision/recall.)*
+The trained SVM model achieves an accuracy of **80.6%** on the test set.
 
 ## 🔮 Future Improvements
 
